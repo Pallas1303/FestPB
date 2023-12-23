@@ -1,0 +1,447 @@
+
+(
+( occurid cluster )
+( p.name
+0 "a" "a~" "b" "d" "dZ" "e" "e~" "E" "f" "g" "i" "i~" "j" "j~" "J" "k" "l" "L" "m" "n" "o" "o~" "O" "p" "r" "R" "s" "S" "t" "tS" "u" "u~" "v" "w" "w~" "X" "z" "Z" "pau"
+)
+( p.ph_vc
++
+-
+0
+)
+( p.ph_ctype
+0
+a
+f
+l
+n
+r
+s
+)
+( p.ph_vheight
+-
+0
+1
+2
+3
+)
+( p.ph_vlng
+-
+0
+a
+d
+l
+s
+)
+( p.ph_vfront
+-
+0
+1
+2
+3
+)
+( p.ph_vrnd
++
+-
+0
+)
+( p.ph_cplace
+0
+a
+b
+d
+g
+l
+p
+v
+)
+( p.ph_cvox
++
+-
+0
+)
+( n.name
+- 0 "a" "a~" "b" "d" "dZ" "e" "e~" "E" "f" "g" "i" "i~" "j" "j~" "J" "k" "l" "L" "m" "n" "o" "o~" "O" "p" "r" "R" "s" "S" "t" "tS" "u" "u~" "v" "w" "w~" "X" "z" "Z" "pau"
+)
+( n.ph_vc
++
+-
+0
+)
+( n.ph_ctype
+0
+a
+f
+l
+n
+r
+s
+)
+( n.ph_vheight
+-
+0
+1
+2
+3
+)
+( n.ph_vlng
+-
+0
+a
+d
+l
+s
+)
+( n.ph_vfront
+-
+0
+1
+2
+3
+)
+( n.ph_vrnd
++
+-
+0
+)
+( n.ph_cplace
+0
+a
+b
+d
+g
+l
+p
+v
+)
+( n.ph_cvox
++
+-
+0
+)
+( segment_duration float )
+( seg_pitch float )
+( p.seg_pitch float )
+( n.seg_pitch float )
+( R:SylStructure.parent.stress float
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( seg_onsetcoda float
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+coda
+onset 
+seg_onsetcoda
+)
+( n.seg_onsetcoda float
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+coda
+onset
+seg_onsetcoda
+)
+( p.seg_onsetcoda float
+coda
+onset 
+seg_onsetcoda
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( R:SylStructure.parent.accented float
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( pos_in_syl float
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+20
+)
+( syl_initial float
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( syl_final float
+0
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( R:SylStructure.parent.syl_break float
+0
+1
+3
+4
+5 
+6 
+7 
+8 
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( R:SylStructure.parent.R:Syllable.p.syl_break float
+0
+1
+3
+4
+5 
+6 
+7 
+8 
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+)
+( pp.name
+0 "a" "a~" "b" "d" "dZ" "e" "e~" "E" "f" "g" "i" "i~" "j" "j~" "J" "k" "l" "L" "m" "n" "o" "o~" "O" "p" "r" "R" "s" "S" "t" "tS" "u" "u~" "v" "w" "w~" "X" "z" "Z" "pau"
+)
+( pp.ph_vc
++
+-
+0
+)
+( pp.ph_ctype
+-
+0
+a
+f
+l
+n
+r
+s
+)
+( pp.ph_vheight
+-
+0
+1
+2
+3
+)
+( pp.ph_vlng
+-
+0
+a
+d
+l
+s
+)
+( pp.ph_vfront
+-
+0
+1
+2
+3
+)
+( pp.ph_vrnd
++
+-
+0
+)
+( pp.ph_cplace
+0
+a
+b
+d
+g
+l
+p
+v
+)
+( pp.ph_cvox
++
+-
+0
+)
+( R:SylStructure.parent.parent.R:Word.word_out float 
+0
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19
+20
+)
+( R:SylStructure.parent.syl_in 0 float 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100)
+( R:SylStructure.parent.syl_out 0 float 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100)
+( R:SylStructure.parent.parent.phr_pos content tag001 tag002 tag003 tag004 tag005 tag006 tag007 tag008 tag009 tag010 tag011 tag012 tag013 0 nil)
+)
