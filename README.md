@@ -3,10 +3,10 @@ FestPB é um projeto com objetivo de oferecer suporte ao Português Brasileiro a
 **Conteúdo da página**
 
 * [Tutorial](#tutorial)
-   * [Sobre dicionário e fonemas usados.](#sobre-dicionário-e-fonemas-usados)
-   * [Recados Importantes](#recados-importantes)
-   * [To-Do](#to-do)
-               * [Tokenização](#tokenização)
+* [Sobre dicionário e fonemas usados.](#sobre-dicionário-e-fonemas-usados)
+* [Recados Importantes](#recados-importantes)
+* [To-Do](#to-do)
+     * [Tokenização](#tokenização)
 
 **Rescursos disponíveis no momento:**
 - Script para construção de dicionário do idioma Português Brasileiro.
