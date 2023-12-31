@@ -57,7 +57,7 @@ fi
 if [ "$1" = "setup" ]
 then
 
-   cp -p ../../../scripts/build_lts* .
+   cp -p $FESTPB/scripts/build_lts* .
    mkdir lts_scratch
 
    LTYPE=utf8

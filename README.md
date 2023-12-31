@@ -1,12 +1,12 @@
-FestPB é um projeto com objetivo de oferecer suporte ao Português Brasileiro ao software Text-to-Speech Festival Speech Synthesis. Com opções de baixar pacotes de vozes.
+FestPB é um projeto com objetivo de oferecer suporte ao Português Brasileiro ao software Text-to-Speech Festival Speech Synthesis. Com opções de baixar vozes.
 
-**Conteúdo da página**
-
+**Conteúdo da página:**
 * [Tutorial](#tutorial)
 * [Sobre dicionário e fonemas usados.](#sobre-dicionário-e-fonemas-usados)
 * [Recados Importantes](#recados-importantes)
 * [To-Do](#to-do)
      * [Tokenização](#tokenização)
+
 
 **Rescursos disponíveis no momento:**
 - Script para construção de dicionário do idioma Português Brasileiro.
@@ -33,12 +33,21 @@ cd FestPB
 ```bash
 bash scripts/make_tts_utils.sh
 ```
+
+**Agora definar a variável FESTPB onde está armazenado o projeto e salve em arquivo. No caso o armazenamento é o caminho atual:**
+```bash
+echo "FESTPB=$PWD" >> tts_utils/utils.source
+```
+
+**Aviso:** Caso a variável **FESTPB** não for definida corretamente todos os scripts do projeto não funcionaram. 
 ##  Sobre dicionário e fonemas usados.
 
 Dicionário fonético e fonemas são fornecidos pelo grupo Falabrasil com seu software G2P chamado annotator. Os fonemas estão em codificação UTF-8.
 
-Para construção do Phoneset foi usado como base o seguinte artigo: "Síntese de Fala em Português Brasileiro Baseada em
-Modelos Ocultos de Markov" feito por Carlos Francisco Soares de Souza. 
+Para construção do Phoneset foi usado como base o seguinte artigo: 
+
+*Síntese de Fala em Português Brasileiro Baseada em
+Modelos Ocultos de Markov" feito por Carlos Francisco Soares de Souza.* 
 
 Houve algumas pesquisas, mas as suas fontes estão perdidas. As características fonéticas dos fonemas marcadas no Phoneset podem estar incorretas em algumas partes. 
 
@@ -53,7 +62,9 @@ Caso houve erros, por favor faça uma contribuição
 - Sem vozes de outros bancos de dados conhecidos. 
 - Sem *stress* ao dicionário fonético. 
 
-As vozes disponíveis aqui para fazer o download foram construídas usado o método concatenativo "Unit Selection". Podem oferecer qualidades, mas em alguns casos pode haver falhas na geração de fala. No momento o meu ambiente de desenvolvimento não tem capacidade computacional para tarefas mais grandes como a construção de vozes com o método "Statistical Parametric Speech Synthesis" baseada em modelos HMM e construção de modelo LTS robusto.
+As vozes disponíveis aqui para fazer o download foram construídas usado o método concatenativo "Unit Selection" para obter naturalidade na geração de fala mas em alguns casos podem existir falhas nas geração de algumas frases ou mesmo palavras. 
+
+No momento o meu ambiente de desenvolvimento não tem capacidade computacional para tarefas mais grandes como a construção de vozes com o método "Statistical Parametric Speech Synthesis" baseada em modelos HMM e construção de modelo LTS robusto.
 
 Ficarei feliz em receber qualquer apoio disponível para esse projeto. Como correção de problemas, vozes robustas construídas a partir dos métodos citados acima, modelo LTS robusto já compilado ou mesmo financeira.
 
@@ -67,7 +78,7 @@ Aqui será uma lista com os recursos que irão ser implementados. Com o passar d
 
 Isso pode sofrer mudanças ao decorrer do tempo.
 
-###### Tokenização
+### Tokenização
 1. [ ] **Conversão de números em palavras:**
 	  1. [ ] Fazer código para conversão numérica
 	  3. [ ] Testar código.
@@ -88,7 +99,6 @@ Isso pode sofrer mudanças ao decorrer do tempo.
 	6. [ ] Testar com textos com várias abreviaturas mais usadas e também desconhecidas.
 	7. [ ] Lançar ao repositório.
 	8. [ ] Colocar as informações referente a essa etapa. Ex: Origem da lista de abreviaturas mais usadas, método, etc.
-
 
 **Aviso:** Infelizmente no momento não é possível fazer essas etapas de tokenizacão. Devido a complicações presentes no projeto. Qualquer contribuição referente a essa parte ou demais do projeto serão bem-vinda ao projeto.
 

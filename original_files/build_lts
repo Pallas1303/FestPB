@@ -1,4 +1,3 @@
-
 #!/bin/sh
 #####################################################-*-mode:shell-script-*-
 ##                                                                       ##
@@ -68,11 +67,11 @@ then
    mkdir lts_scratch
 
    LTYPE=utf8
-   if [ $# = 3 ]
-   then
+#   if [ $# = 3 ]
+ #  then
       # asis or utf8
-      LTYPE=$3
-   fi
+  #    LTYPE=$3
+#   fi
 
    $FESTIVAL -b "(require 'lts_build)" '(dump-flat-entries "'$2'" "lts_scratch/lex_entries.out" "'$LTYPE'")'
    exit 0

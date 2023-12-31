@@ -83,13 +83,12 @@ sleep 2
 git clone https://github.com/falabrasil/annotator
 
 ## Salva as variáveis das ferramentas em um arquivo
-cd ..
 echo "ESTDIR=$ESTDIR" >> utils.source
 echo "FLITEDIR=$FLITEDIR" >> utils.source
 echo "FESTVOXDIR=$FESTVOXDIR" >> utils.source
 echo "SPTKDIR=$SPTKDIR" >> utils.source
 echo "REAPER=`pwd`/REAPER/build/reaper" >> utils.source
 echo "G2P_PB=`pwd`/annotator/fb_nlplib.jar" >> utils.source
-echo "FESTPB=$PWD" >> utils.source
+
 
 

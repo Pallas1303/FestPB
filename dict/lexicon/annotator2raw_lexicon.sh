@@ -63,7 +63,7 @@ sed -i "s|$|$SED_1|g" $FILE_OUTPUT.tmp
 #Usar tr para subtrair as barras / por aspas " duplas. Usou // eu não achei como usar sem que o código/comando quebre e salvando para um novo arquivo com o dicionário pronto em fonético compatível com Festival Speech Synthesis.
 
 tr '/' '"' < $FILE_OUTPUT.tmp > $FILE_OUTPUT
-sed '$d' -i $FILE_OUTPUT
+#sed '$d' -i $FILE_OUTPUT
 #Apagando o arquivo temporário.
 rm $FILE_OUTPUT.tmp
 
