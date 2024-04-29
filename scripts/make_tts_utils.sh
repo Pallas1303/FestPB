@@ -3,24 +3,24 @@
 #Fonte original: http://festvox.org/do_install
 
 chmod +x scripts/*
-mkdir ../tts_utils/
-cd ../tts_utils
+mkdir tts_utils/
+cd tts_utils/
 
 # Ubuntu (and related) prerequisites:
 echo "Instalando os pacotes necessários para as ferramentas"
 sleep 2
 
 sudo apt-get install git build-essential libncurses5-dev sox cmake openjdk-8-jdk openjdk-8-jre
-sudo apt-get install csh doxygen xsltproc graphviz xargs cut 
+sudo apt-get install csh doxygen xsltproc graphviz
 
 # Get source (unstable)
 echo "Baixado e compilado: Festival Speech Synthesis, Speech Tools, Festvox, Flite e SPTK"
-git clone http://github.com/festvox/speech_tools
-git clone http://github.com/festvox/festival
-git clone http://github.com/festvox/festvox
-git clone http://github.com/festvox/flite
+git clone https://github.com/festvox/speech_tools
+git clone https://github.com/festvox/festival
+git clone https://github.com/festvox/festvox
+git clone https://github.com/festvox/flite
 
-wget http://festvox.org/packed/SPTK-3.6.tar.gz
+wgeth https://festvox.org/packed/SPTK-3.6.tar.gz
 tar zxvf SPTK-3.6.tar.gz
 
 export ESTDIR=`pwd`/speech_tools
