@@ -28,10 +28,10 @@ fi
 if [ ! $2 ]
 then
 FILE_OUTPUT=$FILE_INPUT.dic 
-echo "Seu dicionário será salvo em: $FILE_OUPUT"
+echo "Seu dicionário será salvo em: $FILE_OUTPUT"
 else 
 FILE_OUTPUT=$2
-echo "Seu dicionário será salvo em: $FILE_OUPUT"
+echo "Seu dicionário será salvo em: $FILE_OUTPUT"
 fi 
 
 re='[0-9]'
@@ -52,7 +52,7 @@ fi
 
 echo "Gerando dicionário fonético usado Annotator. Caso o número de threads ser maior que 1, o processamento será feito em parallel"
 
-java -jar $G2P_PB -i $FILE_INPUT -o $FILE_OUPUT -g -t $CPUS
+java -jar $G2P_PB -i $FILE_INPUT -o $FILE_OUTPUT -g -t $CPUS
 
 echo "Dicionário fonético em formato Annotator salvo em $FILE_OUPUT"
 

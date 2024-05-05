@@ -9,7 +9,7 @@ echo -e "Compilar dicionário convertido para ser usado no Festival Speech Synth
 exit 1
 fi
 
-if [ $# = help ]
+if [ $1 = help ]
 then
 echo -e "bash compile_lexicon.sh dicionário_convertido nome_do_dicionário_compilado.\nPara usar um dicionário gerando pelo annotator use annotator2raw_lexicon.sh"
 exit 1
@@ -23,17 +23,18 @@ echo "Por favor, informe a localização do dicionário convertido!"
 exit 1
 fi 
 
-if [ $2 = 0 ]
+if [ ! $2  ]
 then
 FILE_OUTPUT=$FILE_INPUT.out 
-echo "Seu dicionário compilado será salvo em: $FILE_OUPUT"
+echo "Seu dicionário compilado será salvo em: $FILE_OUTPUT"
 else 
 FILE_OUTPUT=$2
 echo "Seu dicionário compilado será salvo em: $FILE_OUPUT"
 fi 
 
-echo "Compilando $FILE_INPUT.\n isso pode demorar algum tempo..."
-$ESTDIR/../festival/bin/festival -b '(lex.compile "'$FILE_INPUT'" "'$FILE_OUPUT'")' 
+echo "Compilando $FILE_INPUT"
+echo " isso pode demorar algum tempo..."
+$ESTDIR/../festival/bin/festival -b '(lex.compile "'$FILE_INPUT'" "'$FILE_OUTPUT'")' 
 
 if [ ! -e $FILE_OUPUT ]
 then 
