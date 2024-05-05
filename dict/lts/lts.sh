@@ -45,7 +45,7 @@ echo "Copiando $FILE_INPUT para $LTS, com fins de isolamento."
 cp $FILE_INPUT $LTS
 
 cd $LTS/
-bash $FESTPB/scripts/build_lts setup $FILE_INPUT utf8
+bash $FESTVOXDIR/src/lts/build_lts setup $FILE_INPUT utf8
 ./build_lts "make_allowables" 
 ./build_lts 
 
